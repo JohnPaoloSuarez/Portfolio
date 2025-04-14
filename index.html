@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" />
+    <title>My Portfolio</title>
+</head>
+<body>
+    <nav>
+      <ul class="nav">
+        <li class="logo">MyPortfolio</li>
+        <li class="hideOnMobile"><a href="#">Home</a></li>
+        <li class="hideOnMobile"><a href="#aboutme">About</a></li>
+        <li class="hideOnMobile"><a href="#skills">Skills</a></li>
+        <li class="hideOnMobile"><a href="#contact">Contact</a></li>
+        <li class="menu"onclick="showSidebar()"><a href="#" class="svg"><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#000000"><path d="M480-338 243-574h474L480-338Z"/></svg></a></li>
+    </ul>
+
+        <ul class="side_nav">
+            <li><a href="#" class="svg" onclick="hideSidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#000000"><path d="m251.33-204.67-46.66-46.66L433.33-480 204.67-708.67l46.66-46.66L480-526.67l228.67-228.66 46.66 46.66L526.67-480l228.66 228.67-46.66 46.66L480-433.33 251.33-204.67Z"/></svg></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#aboutme">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+ 
+    </nav>
+    
+    <div class="introduction">
+        <p class="greeting">Hello, I'm</p>
+        <p class="name">John Paolo G. Suarez</p>
+        <h5 class="major">Major in Software Development</h5>
+        <p class="from">Alaminos, Laguna</p>
+    </div>
+
+    <a href="#aboutme"><div class="icon" >
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_6_136)">
+                <path d="M16 20.5L7 11.5" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M25 11.5L16 20.5" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16 32L7 23" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M25 23L16 32" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            <defs><clipPath id="clip0_6_136"><rect width="32" height="32" fill="white"/></clipPath></defs>
+        </svg>
+    </div></a>
+
+    <div id="aboutme" class="abawtme">
+        <div class="msg">
+            <p class="abtme"><strong>About Me</strong></p>
+            <p>Hello! I'm <b>Paolo</b>, currently pursuing a Bachelor of Science in Information Technology at Pamantasan ng Lungsod ng San Pablo. I have a passion for technology and design, with a strong focus on finding efficient ways to build and create innovative solutions. My ability to design and prototype is one of my key strengths, and I always strive to improve the user experience through thoughtful, functional designs.</p>
+            <p></p>
+        </div>
+        <div class="dubu"><img src="Pf.jpg" alt="Profile" /></div>
+    </div>
+
+    <a href="#skills"><div class="icon" >
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_6_136)">
+                <path d="M16 20.5L7 11.5" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M25 11.5L16 20.5" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16 32L7 23" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M25 23L16 32" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            <defs><clipPath id="clip0_6_136"><rect width="32" height="32" fill="white"/></clipPath></defs>
+        </svg>
+    </div></a>
+
+    
+    
+       <div class="container">
+        <h1 id="skills"class="sheader">Skills </h1>
+        <div class="progress-container">
+            
+            <div class="progress">
+                <h2 class="title">HTML</h2>
+                <div class="progress-bar">
+                    <div class="progress-per" data-text="85">85</div>
+                </div>
+            </div>
+
+            <div class="progress">
+                <h2 class="title">CSS</h2>
+                <div class="progress-bar">
+                    <div class="progress-per" data-text="80">80</div>
+                </div>
+            </div>
+
+            <div class="progress">
+                <h2 class="title">JavaScript</h2>
+                <div class="progress-bar">
+                    <div class="progress-per" data-text="70">70</div>
+                </div>
+            </div>
+            <p>This skills may vary from time to time.</p>
+        </div>
+        
+    </div>
+        <script src="Portfolio.js"></script>
+
+        <a href="#contact"><div class="icon" >
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_6_136)">
+                    <path d="M16 20.5L7 11.5" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M25 11.5L16 20.5" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16 32L7 23" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M25 23L16 32" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+                <defs><clipPath id="clip0_6_136"><rect width="32" height="32" fill="white"/></clipPath></defs>
+            </svg>
+        </div></a>
+        
+       <section id="contact"class="container2">
+         <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Contact me</h2>
+    
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="64eefa77-e19d-4604-bd48-47610aaab03e">
+                <input type="text" name="name" placeholder="Your name" class="input" required>
+                <input type="email" name="email" placeholder="Your email" class="input" required>
+                <textarea name="message" placeholder="Message" class="input"></textarea>
+                <button type="submit">Send<svg xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 -960 960 960" width="25px" fill="#000000"><path d="M120-160v-640l760 320-760 320Zm80-120 474-200-474-200v140l240 60-240 60v140Zm0 0v-400 400Z"/></svg></button>
+            </form>
+  
+        </div>
+       
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="icons">
+                <a href="https://www.facebook.com/suarezpaopao23/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/suarezpaopao/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/JohnPaoloSuarez/IPT_Portfolio" target="_blank" ><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:johnpaolosuarez45@gmail.com" target="_blank"><i class="fa-brands fa-google"></i></a>
+            </div>
+            <div class="fnav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#aboutme">About</a></li>
+                </ul>
+                <div class="others">
+                    <p>&copy; 2025 Made by <span class="des">Paolo</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+    
