@@ -37,6 +37,8 @@ background-position: 8% 50%;
     background-color: whitesmoke;
     border-radius: 40px;
     margin: 15px;
+    flex-direction: flex;
+    height: auto-fit;
 }
 
 
@@ -52,15 +54,24 @@ background-position: 8% 50%;
 
 .container3
 {
+    background-color: whitesmoke;
     border-radius: 40px;
-    margin: 15px; 
-    background-size: 400% 400%;
-    animation: bg 10s ease-out infinite;
-    background: #020024;
-    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    margin: 15px;
+    flex-direction: flex;
+    height: 55vh;
+    padding: 25px;
+}
+.container3 h1
+{
+    text-align: center;
+    justify-content: center;
 }
 
-/**/
+.container3 h3
+{
+    display: flex;
+    align-items: left;
+}
 
 
 
